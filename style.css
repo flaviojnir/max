@@ -1,0 +1,171 @@
+@media only screen and (min-width:1600px){
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"Oswald", sans-serif;;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.left img{
+    max-width: 11vh;
+    position: absolute;
+    left: 60px;
+    top: 2.3vh;
+    position: fixed;
+}
+
+.centerBar{
+    position: absolute;
+    top: 9px;
+    left: 67.5vh;
+    position: fixed;
+}
+
+.centerBar ul{
+    list-style-type: none;
+}
+
+.centerBar li{
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.centerBar img{
+    max-width: 36px;
+}
+
+
+.centerBar a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 3px;
+    font-size: 19.5px;
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+.centerBar a:is(:link, :active, :visited).active{
+    border-bottom: 2px solid white;
+    opacity: 1;
+}
+
+.centerBar a:hover{
+    opacity: 1;
+}
+
+.search img{    
+    max-width: 26px;
+    position: absolute;
+    top: 24px;
+    left: 174vh;
+    position: fixed;
+}
+
+.savedItems img{
+    position: absolute;
+    top: 25px;
+    left: 179vh;
+    max-width: 27px;
+    position: fixed;
+}
+
+.user img{
+    position: absolute;
+    top: 23px;
+    left: 184.5vh;
+    max-width: 38px;
+    border-radius: 300px;
+    position: fixed;
+}
+
+.user ul{
+    list-style-type: none;
+}
+
+.trailer{
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.trailer img{
+    max-width: 2000px;
+}
+
+.titulo{
+    max-width: 580px;
+}
+
+.titulo h1{
+    color: white;
+    position: absolute;
+    top: 40vh;
+    left: 5vh;
+    font-size: 80px;
+}
+
+.titulo p{
+    color: white;
+    position: relative;
+    left: 5vh;
+    top: 55vh;
+    font-size: 18px;
+}
+
+#year{
+    top: 37vh;
+    left: 10vh;
+}
+
+.titulo img{
+    max-width: 30px;
+    position: absolute;
+    top: 56vh;
+    left: 5vh;
+}
+
+.titulo button{
+    padding: 17px;
+    border-radius: 10px;
+    border: none;
+    background-color: RGB(40, 46, 63);
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 75vh;
+    left: 5vh;
+    cursor: pointer;
+}
+
+.recomendado p{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 85vh;
+    left: 5vh;
+}
+
+.poster-container{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.poster-container img{
+    min-width: 200px;
+    position: relative;
+    top: 70vh;
+    left: 5vh;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.poster-container img:hover{
+    padding: 1px;
+    border: 1px solid white;
+}
+
+
+}
