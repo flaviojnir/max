@@ -5,11 +5,11 @@ const scrollRightButton = document.getElementById('scrollRight')
 const scrollAmount = 300
 
 scrollLeftButton.onclick = function(){
-    console.log('Trouxa')
+    console.log('Funciona')
     poster.scrollBy({left:-scrollAmount, behavior: 'smooth'})
 }
 
 scrollRightButton.onclick = function(){
-    console.log('Trouxa')
+    console.log('Funciona')
     poster.scrollBy({left:scrollAmount, behavior: 'smooth'})
 }
