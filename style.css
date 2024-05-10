@@ -96,6 +96,7 @@ body{
 
 .titulo{
     max-width: 580px;
+    position: relative fixed;
 }
 
 .titulo h1{
@@ -149,22 +150,31 @@ body{
 
 .poster-container{
     display: flex;
-    justify-content: start;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 93vh;
+    left: 5vh;
+    gap: 15px;
+    transition: 0.5s all ease-out;
 }
 
 .poster-container img{
-    min-width: 200px;
-    position: relative;
-    top: 70vh;
-    left: 5vh;
+    max-height: 350px;
     cursor: pointer;
-    overflow: hidden;
+}
+
+.scroll button{
+    position: relative;
+    top: 67vh;
+    height: 350px;
+    z-index: +2;
+    display: none;
 }
 
 .poster-container img:hover{
-    padding: 1px;
-    border: 1px solid white;
+    border: solid 0.1px white;
 }
 
 

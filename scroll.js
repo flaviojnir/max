@@ -1,15 +1,2 @@
-const poster = document.querySelectorAll('.poster-container')
-const scrollLeftButton = document.getElementById('scrollLeft')
-const scrollRightButton = document.getElementById('scrollRight')
-
-const scrollAmount = 300
-
-scrollLeftButton.onclick = function(){
-    console.log('Funciona')
-    poster.scrollBy({left:-scrollAmount, behavior: 'smooth'})
-}
-
-scrollRightButton.onclick = function(){
-    console.log('Funciona')
-    poster.scrollBy({left:scrollAmount, behavior: 'smooth'})
-}
+const left = document.getElementById(`btn-scroll-left`)
+const right = document.getElementById(`btn-scroll-right`)
